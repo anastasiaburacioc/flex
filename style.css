@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #4CAF50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*ul{
+        background-color: red;
+    }*/
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul:first-of-type {
+  margin-left: 5em;
+}
+
+.navbar ul:last-of-type {
+  margin-right: 5em;
+}
+
+.navbar ul li a i {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+/*# sourceMappingURL=style.css.map */
